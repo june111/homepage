@@ -2,7 +2,7 @@ import React from 'react';
 
 const name = 'June Zhu';
 const element =
-    <section>
+    <section className="big">
 		<div>{name}</div>
 		<button>blog</button>
 	</section>
