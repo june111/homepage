@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "my-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://june111.github.io/myapp",
+  "homepage" : "http://june111.github.io/homepage",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
