@@ -1,9 +1,9 @@
-
 import React from 'react';
+import {copyright} from '../store/db'
 
 const element =
     <section>
-		<div>June Zhu@2019</div>
+		<div>{copyright}</div>
 	</section>
 
 export const Footer = () => {

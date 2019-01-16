@@ -1,18 +1,17 @@
 import React from 'react';
-
-const content = [
-    { title: 'email', href: 'mailto:yula.qian@gmail.com' },
-    { title: 'github', href: 'https://github.com/june111' }
-];
+import {content} from '../store/db'
 
 const element = (
-    <ul>
-      {content.map((post) =>
-        <li key={post.title}>
-        <a href={post.href} title={post.title}>{post.title}</a>
+    <div className="contact">
+        <ul >
+      {content.map((item) =>
+        <li key={item.title} >
+        <a href={item.href} title={item.title} className={item.className}><i className={item.icon}></i></a>
         </li>
       )}
     </ul>
+    </div>
+
 );
 
 export const Contact = () => {

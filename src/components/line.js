@@ -2,7 +2,7 @@ import React from 'react';
 
 const element =
     <section>
-		<div>Work</div>
+		<div className="line">Work</div>
 	</section>
 
 export const Line = () => {

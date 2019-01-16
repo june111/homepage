@@ -1,10 +1,10 @@
 import React from 'react';
+import {intro} from '../store/db'
 
-const content = "I'm xxx";
 const element =
     <section>
-		<div>About me</div>
-		<p>{content}</p>
+		<div>About</div>
+		<p>{intro}</p>
 		<button>Contact Me</button>
 	</section>
 

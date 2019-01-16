@@ -1,10 +1,11 @@
 import React from 'react';
+import {name,title} from '../store/db'
 
-const name = 'June Zhu';
 const element =
-    <section className="big">
-		<div>{name}</div>
-		<button>blog</button>
+    <section className="headline">
+		<h1>{name}</h1>
+		<h2>{title}</h2>
+		<button className="botton-red">BLOG</button>
 	</section>
 
 export const Headline = () => {

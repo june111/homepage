@@ -20,15 +20,14 @@ import {
 export const Home = () => {
     return (
         <div>
-        <section>
-        <Headline />
-<Contact />
-</section>
-<Line />
-        
-<Collection />
-<About />
-<Footer />
-      </div>
+	        <section className="container-main">
+	        	<Headline />
+				<Contact />
+			</section>
+			<Line />
+			<Collection />
+			<About />
+			<Footer />
+        </div>
     )
 };
