@@ -1,5 +1,6 @@
 export const name = 'June Zhu';
 export const title = 'Software Engineer';
+export const aboutTitle = 'Software Engineer, I like coding';
 export const intro = 'Hi~';
 
 export const content = [{
@@ -25,7 +26,6 @@ export const collection  = [
     { title: 'email', href: 'mailto:yula.qian@gmail.com', pic:''},
     { title: 'email', href: 'mailto:yula.qian@gmail.com', pic:''},
     { title: 'email', href: 'mailto:yula.qian@gmail.com', pic:''},
-    { title: 'email', href: 'mailto:yula.qian@gmail.com', pic:''},
     { title: 'github', href: 'https://github.com/june111', pic:'' }
 ];
-export const copyright = 'June Zhu@2019';
+export const copyright = 'June Zhu @ 2018-2019';

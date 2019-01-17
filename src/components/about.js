@@ -1,11 +1,12 @@
 import React from 'react';
-import {intro} from '../store/db'
+import {intro,aboutTitle} from '../store/db'
 
 const element =
-    <section>
-		<div>About</div>
+    <section className="about">
+		<div className="deep-gray title-about">About Me</div>
+		<h3>{aboutTitle}</h3>
 		<p>{intro}</p>
-		<button>Contact Me</button>
+		<a href="mailto:yula.qian@gmail.com" className="red">Contact me</a>
 	</section>
 
 export const About = () => {

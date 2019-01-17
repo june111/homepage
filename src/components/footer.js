@@ -2,7 +2,7 @@ import React from 'react';
 import {copyright} from '../store/db'
 
 const element =
-    <section>
+    <section className="footer deep-gray">
 		<div>{copyright}</div>
 	</section>
 
