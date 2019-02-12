@@ -9,12 +9,12 @@ export const content = [{
         icon: 'icon-mail',
         className: 'em'
     },
-    {
-        title: 'telegram',
-        href: '+8618820209318',
-        icon: 'icon-telegram',
-        className: 'te'
-    },
+    // {
+    //     title: 'telegram',
+    //     href: '+8618820209318',
+    //     icon: 'icon-telegram',
+    //     className: 'te'
+    // },
     {
         title: 'github',
         href: 'https://github.com/june111',

@@ -6,7 +6,7 @@ const element = (
         <ul >
       {content.map((item) =>
         <li key={item.title} >
-        <a href={item.href} title={item.title} className={item.className}><i className={item.icon}></i></a>
+        <a target="_blank" href={item.href} title={item.title} className={item.className}><i className={item.icon}></i></a>
         </li>
       )}
     </ul>

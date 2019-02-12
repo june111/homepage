@@ -24,10 +24,12 @@ export const Home = () => {
 	        	<Headline />
 				<Contact />
 			</section>
-			<Line />
-			<Collection />
-			<About />
-			<Footer />
+		
         </div>
     )
 };
+
+    // <Line />
+            // <Collection />
+            // <About />
+            // <Footer />
